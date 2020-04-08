@@ -15,10 +15,10 @@ import string
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 
-consumer_key = '9p6xgA8g2tS5QBfoaQTaS3wSv'
-consumer_secret = 'qoNO6ecD8JituaFgnSYaamjOa6otBPaYeCaqh476BQSrhVedni'
-access_token = '742072568367054853-SEbq8RRa0f089HTXhpb0iQjMipQ9FTV'
-access_secret = '4ndzPfaWvp8L7tDMNuZ0lXzfWQdkcR4RaXw9Y5lwEktdh'
+consumer_key = '9p6xgA8g2XXXXXXXXX3wSv'
+consumer_secret = 'qoNO6ecD8JiXXXXXXXXXXXXXXXqh476BQSrhVedni'
+access_token = '74207256836705XXXXXXXXXXXXX9HTXhpb0iQjMipQ9FTV'
+access_secret = '4ndzPfaWvp8XXXXXXXXXXXXXX9Y5lwEktdh'
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
